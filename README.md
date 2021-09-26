@@ -9,9 +9,10 @@ https://www.kdab.com/setting-up-kinect-for-programming-in-linux-part-1/
 
 Pero en la parte de instalación de Java
 # Tomé la referencia de:
+# Cómo instalar Java con `apt` en Ubuntu 18.04
 https://www.digitalocean.com/community/tutorials/como-instalar-java-con-apt-en-ubuntu-18-04-es
 
-# Entonces, apliqué los siguientes comandos:
+# Entonces, enlisto los comandos que aapliqué:
 
 ```
 mkdir KinectLibs 
