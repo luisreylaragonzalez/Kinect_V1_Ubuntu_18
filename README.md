@@ -8,12 +8,12 @@ Setting up Kinect for programming in Linux (part 1)
 https://www.kdab.com/setting-up-kinect-for-programming-in-linux-part-1/
 
 Pero en la parte de instalación de Java
-Tomé la referencia de:
+# Tomé la referencia de:
 https://www.digitalocean.com/community/tutorials/como-instalar-java-con-apt-en-ubuntu-18-04-es
 
-Entonces, apliqué los siguientes comandos:
+# Entonces, apliqué los siguientes comandos:
 
-
+```
 mkdir KinectLibs 
 cd KinectLibs
 git clone https://github.com/OpenKinect/libfreenect
@@ -33,9 +33,10 @@ sudo apt install openjdk-11-jdk
 sudo apt install openjdk-11-jre
 
 sudo apt-get install doxygen mono-complete graphviz
+```
 
 # in libfreenect directory, in the KinectLibs dir
-
+```
 cd libfreenect
 mkdir build
 cd build
@@ -49,3 +50,4 @@ sudo chmod a+rw /dev/bus/usb//
 lsusb | grep Xbox
 
 sudo glview
+```
