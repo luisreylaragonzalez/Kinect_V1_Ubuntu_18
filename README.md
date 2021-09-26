@@ -48,6 +48,6 @@ sudo ldconfig /usr/local/lib/
 sudo chmod a+rw /dev/bus/usb//
 
 lsusb | grep Xbox
-
-sudo glview
+# Conectar el Kinect v1
+sudo freenect-glview
 ```
